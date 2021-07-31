@@ -1,0 +1,36 @@
+//#include<bits/stdc++.h>
+//using namespace std;
+
+#define ar array
+#define ll long long
+#define ld long double
+#define nl cout<<'\n';
+#define ns cout<<" ";
+#define pr(x) cout<<(x==1?"YES":"NO");
+
+#define vt vector
+#define vi vt<int>
+#define vvi vt<vi>
+#define vl vt<ll>
+#define pb push_back
+#define all(x) (x).begin(),(x).end()
+#define srt(x) sort(all(x))
+#define sz(x)  (int)(x).size()
+
+#define F(i,a,b,s) for(int i=(a);(s)>0?i<(b):i>(b);i+=(s))
+#define f(n) F(i,0,n,1)
+#define ff(n) F(j,0,n,1)
+#define fr(i,e) F(i,0,e,1)
+#define ech(x,a) for(auto& x:a)
+#define IOS ios_base::sync_with_stdio(false);cin.tie(NULL);
+
+template<class A>void read(A& v){cin>>v;}
+template<class A,class... T>void read(A& x,T&... t){read(x);read(t...);}
+template<class A>void read(vt<A>& v){ech(a,v)cin>>a;}
+template<class T> bool umin(T& a, const T& b) {	return b<a?a=b, 1:0;}
+template<class T> bool umax(T& a, const T& b) {	return a<b?a=b, 1:0;} 
+template<class A>void print(A& x){cout<<x;}
+template<class A,class... T>void print(A& x,T... y){print(x);print(" ");print(y...);};
+template<class A>void print(vt<A>&v){ech(a,v)cout<<a<<" ";}
+
+const int M=1e9+7;
